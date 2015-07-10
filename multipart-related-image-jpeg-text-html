@@ -1,17 +1,12 @@
-Return-Path: <SRS0+yddC=2R=sender.test=recipient@email.test>
-X-Original-To: recipient@email.test
 Delivered-To: recipient@email.test
 Received: from localhost (localhost.localdomain [127.0.0.1])
-	by server.email.test (Postfix) with ESMTP id 4486920E0B
-	for <recipient@email.test>; Mon, 19 May 2014 21:00:59 +0200 (CEST)
-Date: Mon, 19 May 2014 21:00:58 +0200
-To: Test Recipient <recipient@email.test>
-From: Test Sender <meint@sender.test>
-Subject: e-mail test case 6
-Message-ID: <1675165b968cb57b71e7156f7fa6cba9@mail.sender.test>
-X-Priority: 3
-
-MIME-Version: 1.0
+	by server.email.test (Postfix) with ESMTP id B3E9420E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 10 Jul 2015 15:29:52 GMT
+From: "Test Sender" <sender@email.test>
+To: "Test Recipient" <recipient@email.test>
+Message-ID: <rf51l8iqh6ej4vxsdhkdl0r4bowenl2f@email.test>
+Subject: multipart-mixed-image-jpeg-text-html
 Content-Type: multipart/related;
 	boundary="b1_1675165b968cb57b71e7156f7fa6cba9"
 Content-Transfer-Encoding: 8bit
@@ -19,7 +14,15 @@ Content-Transfer-Encoding: 8bit
 --b1_1675165b968cb57b71e7156f7fa6cba9
 Content-Type: text/html; charset=us-ascii
 
+<html>
+<head>
+<title>Test</title>
+</head>
+<body>
 This is a test message.<img alt="PHPMailer" src="cid:10001">
+</body>
+</html>
+
 
 
 --b1_1675165b968cb57b71e7156f7fa6cba9

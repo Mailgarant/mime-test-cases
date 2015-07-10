@@ -1,17 +1,12 @@
-Return-Path: <SRS0+yddC=2R=sender.test=recipient@email.test>
-X-Original-To: recipient@email.test
 Delivered-To: recipient@email.test
 Received: from localhost (localhost.localdomain [127.0.0.1])
-	by server.email.test (Postfix) with ESMTP id 5720B20E0B
-	for <recipient@email.test>; Mon, 19 May 2014 21:01:11 +0200 (CEST)
-Date: Mon, 19 May 2014 21:01:10 +0200
-To: Test Recipient <recipient@email.test>
-From: Test Sender <meint@sender.test>
-Subject: e-mail test case 9
-Message-ID: <e1b8f6464f2ad01ffd2af34a6b431eaf@mail.sender.test>
-X-Priority: 3
-
-MIME-Version: 1.0
+	by server.email.test (Postfix) with ESMTP id B3E9420E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 10 Jul 2015 15:29:52 GMT
+From: "Test Sender" <sender@email.test>
+To: "Test Recipient" <recipient@email.test>
+Message-ID: <rf51l8iqh6ej4vxsdhkdl0r4bowenl2f@email.test>
+Subject: multipart-mixed-image-jpeg-text-plain
 Content-Type: multipart/mixed;
 	boundary="b1_e1b8f6464f2ad01ffd2af34a6b431eaf"
 Content-Transfer-Encoding: 8bit

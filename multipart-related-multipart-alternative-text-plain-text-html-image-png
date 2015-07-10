@@ -1,35 +1,19 @@
-Return-Path: <meint.post@gmail.com>
-X-Original-To: meint@meint.net.mailgarant.nl
-Delivered-To: accept@mailgarant.nl
-Received: from mail-wg0-f42.google.com (mail-wg0-f42.google.com [74.125.82.42])
-	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256 (128/128 bits))
-	(No client certificate requested)
-	by pfe-a002.mailgarant.nl (Postfix) with ESMTPS id 251812148E
-	for <meint@meint.net.mailgarant.nl>; Tue,  7 Jul 2015 15:04:22 -0400 (EDT)
-Received: by wgfr2 with SMTP id r2so21343906wgf.1
-        for <meint@meint.net.mailgarant.nl>; Tue, 07 Jul 2015 12:04:21 -0700 (PDT)
-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
-        d=gmail.com; s=20120113;
-        h=mime-version:from:date:message-id:subject:to:content-type;
-        bh=q9UVyTNdXrQJKDd8p2zYhJWn/tnzBoz9tlt9hUd0WLI=;
-        b=PWZ5VezMzJHcLLtXqK8LDLlUr+j4jDCrJO2nF5A3gGXg2g0O4hsyUhfU4SGuItX8Pa
-         huXHRPDwxIeNgJao+3HfcvWsMF50vyrFk59Ru4JJiuXO7Txrfrv1YnhzQ+Ye4EuXJcCp
-         m0sYzksF/dGMiF130LOgr6K9g3KxfKTYR+IaOv+GYUWpL4UMEztEMzPqP5jHHiaZc4Cy
-         eDfa4IuAtvOPoqoD5HVpBXynRMwP2it9a4e062IGPxjpyp133GIkOcxHSils5UiH2xEL
-         nN/fq9qtYP852y45aHflfJDSmMTuHlKzBsRtFQVF82Q/UTkpS+tTN5KBUnQ9zlHuI/kf
-         snBA==
-X-Received: by 10.194.2.137 with SMTP id 9mr11460815wju.75.1436295861675; Tue,
- 07 Jul 2015 12:04:21 -0700 (PDT)
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B3E9420E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 10 Jul 2015 15:29:52 GMT
+From: "Test Sender" <sender@email.test>
+To: "Test Recipient" <recipient@email.test>
+Message-ID: <rf51l8iqh6ej4vxsdhkdl0r4bowenl2f@email.test>
+Subject: Text multipart-related-multipart-alternative-text-plain-text-html-image-png
 MIME-Version: 1.0
-From: Meint Post <meint.post@gmail.com>
-Date: Tue, 07 Jul 2015 19:04:11 +0000
-Message-ID: <CAANTS9Ga5uekP=-qh9S=NzUH9=wdNsk52urwCnVzr69UN14=8Q@mail.gmail.com>
-Subject: This is a test
-To: "meint@meint.net.mailgarant.nl" <meint@meint.net.mailgarant.nl>
-Content-Type: multipart/related; boundary=047d7b3a874ea2c2ff051a4db041
+Content-Type: multipart/related; 
+  boundary=047d7b3a874ea2c2ff051a4db041
 
 --047d7b3a874ea2c2ff051a4db041
-Content-Type: multipart/alternative; boundary=047d7b3a874ea2c2fc051a4db040
+Content-Type: multipart/alternative; 
+  boundary=047d7b3a874ea2c2fc051a4db040
 
 --047d7b3a874ea2c2fc051a4db040
 Content-Type: text/plain; charset=UTF-8
@@ -41,7 +25,8 @@ This is a test
 --047d7b3a874ea2c2fc051a4db040
 Content-Type: text/html; charset=UTF-8
 
-<div dir="ltr">This is a test<div><br></div><div><img alt="5euro.png" class="kr" style="max-width: 100%; opacity: 1;" src="cid:14e69e74c92a3f606dd1"><br></div></div>
+<div dir="ltr">This is a test<div><br></div><div>
+<img alt="5euro.png" class="kr" style="max-width: 100%; opacity: 1;" src="cid:14e69e74c92a3f606dd1"><br></div></div>
 
 --047d7b3a874ea2c2fc051a4db040--
 --047d7b3a874ea2c2ff051a4db041
