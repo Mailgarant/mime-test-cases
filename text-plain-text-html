@@ -1,0 +1,19 @@
+Return-Path: <SRS0+yddC=2R=sender.test=recipient@email.test>
+X-Original-To: recipient@email.test
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B213220E0B
+	for <recipient@email.test>; Mon, 19 May 2014 21:01:57 +0200 (CEST)
+Date: Mon, 19 May 2014 21:01:57 +0200
+To: Test Recipient <recipient@email.test>
+From: Test Sender <meint@sender.test>
+Subject: e-mail test case 21
+Message-ID: <49ddf1b0f02620a7e4b80fd11eacc2f5@mail.sender.test>
+X-Priority: 3
+
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+This is a test message.
+

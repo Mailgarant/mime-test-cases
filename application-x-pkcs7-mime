@@ -1,0 +1,32 @@
+Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B3E9420E0B
+	for <recipient@email.test>; Mon, 19 May 2014 21:00:34 +0200 (CEST)
+Date: Sun, 05 Jul 2015 20:37:49 +0200
+From: "Test Sender" <sender@email.test>
+To: "Test Recipient" <recipient@email.test>
+Message-ID: <rf51l8iqh6ej4vxsdhkdl0r4bowenl2f@email.test>
+Subject: Test application-x-pkcs7-mime
+MIME-Version: 1.0
+Content-Disposition: attachment; filename="smime.p7m"
+Content-Type: application/x-pkcs7-mime; smime-type=enveloped-data; name="smime.p7m"
+Content-Transfer-Encoding: base64
+
+MIIC1wYJKoZIhvcNAQcDoIICyDCCAsQCAQAxggGwMIIBrAIBADCBkzCBjDELMAkG
+A1UEBhMCSUwxFjAUBgNVBAoTDVN0YXJ0Q29tIEx0ZC4xKzApBgNVBAsTIlNlY3Vy
+ZSBEaWdpdGFsIENlcnRpZmljYXRlIFNpZ25pbmcxODA2BgNVBAMTL1N0YXJ0Q29t
+IENsYXNzIDIgUHJpbWFyeSBJbnRlcm1lZGlhdGUgQ2xpZW50IENBAgJL8TANBgkq
+hkiG9w0BAQEFAASCAQBrlP8WB/1g9hLTsXkrVsWBlnK9ruwTsOaK7cqW1gIuLqZ1
+cKWxRQNE9fQhkrde4wrErDwvyJ7a0LAu3/calO4mvzw8XT53hVc1MllLq8/mFmb/
+NTUw7gIROiuZhzLeCeoK3h5qlXu1ZvJhDM3jtKlMdasV7nJqkBJf7oZUhEUkLsTW
+zWMtI9ErCk5qM+vSH6pKBpuyZVYiv2HWNGQngZZoiuzAKjDhAvZZgLKcy1upxpn3
+rwJ6ylGrPMN1OcDV+FU7dewmetQABZ1SX2uEkh7vnwl6cUktSi1RuHIHf6ruNqfX
+wtPCqMCB3hnt+gYgm12suGSlsLtxONBOdtlhnOxBMIIBCQYJKoZIhvcNAQcBMBkG
+CCqGSIb3DQMCMA0CAToECGy9kRlibT3qgIHg+QJ0KvT0X4QZ7VtmdyEFBG7FERB2
++27Q5Mb2rwEzML2vBF0PySEBCGdz45cV9puutDbYGlviBbMcty4Cg2KaF0LUHW//
+GBwvMLS6GyGU+Pfijd3ITb2kZWHw1NLVNkAMjp26HDD2AGuPSwAI/PBD6tk8FiMh
+KR4kfO6MeHX3FwAjT4bcnPa9HMCcVs0aarjwlJ0rzv2dC16WYihjEU/XZrygne76
+dB/nZsU7KvVICpq8z7irKfC/K1Sr6MwtDTCuhZnA3gtsFw8IKY9NG/QH+5OwQt6Z
+TADnfmph+5hr6eQ=
+
+
