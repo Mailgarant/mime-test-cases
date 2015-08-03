@@ -1,0 +1,23 @@
+﻿Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B3E9420E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 10 Jul 2015 15:29:52 GMT
+From: "Test Sender" <meint@meint.net>
+To: "Test Recipient" <meint@mind-it.info.mailgarant.nl>
+Message-ID: <rf51l8iqh6ej4vxsdhkdl0r4bowenl2f@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-gmail
+MIME-Version: 1.0
+Content-Type: multipart/alternative; boundary=f46d04374503fafd43051c62641d
+
+--f46d04374503fafd43051c62641d
+Content-Type: text/plain; charset=UTF-8
+
+Test
+
+--f46d04374503fafd43051c62641d
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr">Test</div>
+
+--f46d04374503fafd43051c62641d--

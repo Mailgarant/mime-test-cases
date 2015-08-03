@@ -1,0 +1,40 @@
+﻿Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B3E9420E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 10 Jul 2015 15:29:52 GMT
+From: "Test Sender" <meint@meint.net>
+To: "Test Recipient" <meint@mind-it.info.mailgarant.nl>
+Message-ID: <rf51l8iqh6ej4vxsdhkdl0r4bowenl2f@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-outlook2013-rtf
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_0031_01D0CDC5.E54EEA30"
+MIME-Version: 1.0
+
+------=_NextPart_000_0031_01D0CDC5.E54EEA30
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+Test
+
+------=_NextPart_000_0031_01D0CDC5.E54EEA30
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dus-ascii"=
+>
+<meta name=3D"Generator" content=3D"MS Exchange Server version rmj.rmm.rup.=
+rpr">
+<title>Test</title>
+</head>
+<body>
+<!-- Converted from text/rtf format -->
+
+<p dir=3D"LTR"><span lang=3D"en-us"><font face=3D"Calibri">Test</font></spa=
+n><span lang=3D"en-us"></span></p>
+
+</body>
+</html>=
+
+------=_NextPart_000_0031_01D0CDC5.E54EEA30--

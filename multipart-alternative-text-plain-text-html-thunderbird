@@ -1,0 +1,34 @@
+﻿Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B3E9420E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 10 Jul 2015 15:29:52 GMT
+From: "Test Sender" <meint@meint.net>
+To: "Test Recipient" <meint@mind-it.info.mailgarant.nl>
+Message-ID: <rf51l8iqh6ej4vxsdhkdl0r4bowenl2f@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-thunderbird
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="------------080305030004030900010208"
+
+--------------080305030004030900010208
+Content-Type: text/plain; charset="windows-1252"; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Test
+
+--------------080305030004030900010208
+Content-Type: text/html; charset="windows-1252"
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+    Test
+  </body>
+</html>
+
+--------------080305030004030900010208--

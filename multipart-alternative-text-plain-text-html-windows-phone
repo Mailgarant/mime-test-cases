@@ -1,0 +1,37 @@
+﻿Delivered-To: recipient@email.test
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by server.email.test (Postfix) with ESMTP id B3E9420E0B
+	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 10 Jul 2015 15:29:52 GMT
+From: "Test Sender" <meint@meint.net>
+To: "Test Recipient" <meint@mind-it.info.mailgarant.nl>
+Message-ID: <rf51l8iqh6ej4vxsdhkdl0r4bowenl2f@email.test>
+Subject: Test multipart-alternative-text-plain-text-html-windows-phone
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="_000_AM3PR03MB0966ED99D210ED20DBA69AF1D3770AM3PR03MB0966eurp_"
+
+--_000_AM3PR03MB0966ED99D210ED20DBA69AF1D3770AM3PR03MB0966eurp_
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Test
+
+--_000_AM3PR03MB0966ED99D210ED20DBA69AF1D3770AM3PR03MB0966eurp_
+Content-Type: text/html; charset="Windows-1252"
+Content-ID: <BCBE45BC726A6F439C3FC5A7F4F65F66@cloudoutnl.onmicrosoft.com>
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+</head>
+<body>
+<div>
+<div style=3D"font-family: Calibri,sans-serif; font-size: 11pt;">Test</div>
+</div>
+</body>
+</html>
+
+--_000_AM3PR03MB0966ED99D210ED20DBA69AF1D3770AM3PR03MB0966eurp_--
