@@ -6,7 +6,7 @@ Date: Sun, 05 Jul 2015 20:37:49 +0200
 From: "Test Sender" <sender@email.test>
 To: "Test Recipient" <recipient@email.test>
 Message-ID: <rf51l8iqh6ej4vxsdhkdl0r4bowenl2f@email.test>
-Subject: Document1
+Subject: multipart-mixed-application-vnd-openxmlformats-officedocument-text-html
 MIME-Version: 1.0
 Content-Type: multipart/mixed;boundary="_002_HE1PR03MB1113D56A21871EE9600493959F9F0HE1PR03MB1113eurp_"
 

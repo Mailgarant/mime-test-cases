@@ -3,8 +3,8 @@ Received: from localhost (localhost.localdomain [127.0.0.1])
 	by server.email.test (Postfix) with ESMTP id B3E9420E0B
 	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
 Date: Fri, 10 Jul 2015 15:29:52 GMT
-From: "Test Sender" <meint@meint.net>
-To: "Test Recipient" <meint@mind-it.info.mailgarant.nl>
+From: "Test Sender" <sender@email.test>
+To: "Test Recipient" <recipient@email.test>
 Message-ID: <rf51l8iqh6ej4vxsdhkdl0r4bowenl2f@email.test>
 Subject: Test multipart-alternative-text-plain-text-html-thunderbird
 MIME-Version: 1.0
