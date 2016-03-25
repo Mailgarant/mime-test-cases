@@ -1,4 +1,4 @@
-﻿Delivered-To: recipient@email.test
+Delivered-To: recipient@email.test
 Received: from localhost (localhost.localdomain [127.0.0.1])
 	by server.email.test (Postfix) with ESMTP id B3E9420E0B
 	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
