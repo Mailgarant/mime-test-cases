@@ -1,4 +1,4 @@
-# mime-test-cases 
+# email-test-cases 
 A collection of e-mail messages with various headers, bodies and attachments to
 test mail and MIME processing.
 
