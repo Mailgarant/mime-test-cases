@@ -1,8 +1,4 @@
-﻿Delivered-To: recipient@email.test
-Received: from localhost (localhost.localdomain [127.0.0.1])
-	by server.email.test (Postfix) with ESMTP id B3E9420E0B
-	for <recipient@email.test>; Fri, 10 Jul 2015 15:29:52 GMT
-Date: Fri, 10 Jul 2015 15:29:52 GMT
+Date: Fri, 10 Jul 2016 15:29:52 GMT
 From: "Test Sender" <sender@email.test>
 To: "Test Recipient" <recipient@email.test>
 Message-ID: <09636f533b5dea58315ad9d1382a9d6d@email.test>

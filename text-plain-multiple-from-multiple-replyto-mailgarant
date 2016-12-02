@@ -1,6 +1,7 @@
 Date: Fri, 10 Jul 2016 15:29:52 GMT
 From: "Test Sender 1" <sender1@email.test>, "Test Sender2" <sender2@email.test>, "Test Sender3" <sender3@email.test>
-Sender: "Test Sender 1" <sender1@email.test>, "Test Sender2" <sender2@email.test>, "Test Sender3" <sender3@email.test>
+Sender: sender1@email.test
+Reply-To: "Test Sender 4" <sender4@email.test>, "Test Sender 5" <sender5@email.test>, sender6@email.test
 To: "Test Recipient" <recipient@email.test>
 Message-ID: <rf51l8iqh6ej4vxsdhkdl0r4bowenl2f@email.test>
 Subject: Test text-plain-multiple-from-multiple-sender
